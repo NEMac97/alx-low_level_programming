@@ -3,10 +3,10 @@
 /**
  * main- Entry point
  *
- * Return: return 1 on sucess
+ * Return: return to 1 on success
  */
 int main(void)
-{6
+{
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
