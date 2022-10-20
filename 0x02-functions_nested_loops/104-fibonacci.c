@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-7/**
+/**
   * main- prints the first 98 fibonnaci numbers
   *
   * Return: Always zero (success)
