@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-7
+
 /**
  * print_buffer - prints a buffer
  *
