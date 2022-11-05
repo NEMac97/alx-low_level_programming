@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Prints the multiplication of two args numbers
+ * main - multiples two numbers
  *
  * @argc: argument count
  * @argv: argument vector
  *
- * Return: Always zero
+ * Return: 0 for arg = 2, 1 for arg !=2
  */
 
 int main(int argc, char *argv[])
@@ -19,11 +18,11 @@ int main(int argc, char *argv[])
 	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
-                printf("%d\n", x * y);
+		printf("%d\n", x * y);
 	}
 	else
 	{
-		printf("Error\n");
+		printf("Error\n")
 		return (1);
 	}
 
