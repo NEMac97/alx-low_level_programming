@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Prints its name
+ * main - Entry point
  *
  * @argc: argument count
  * @argv: argument vector
  *
- * Return: Always zero
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
@@ -16,5 +17,5 @@ int main(int argc, char *argv[])
 
 	printf("%s\n", argv[0]);
 
-        return (0);
+	exit(EXIT_SUCCESS);
 }
