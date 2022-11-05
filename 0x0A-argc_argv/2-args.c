@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Prints all the args content
+ * main - prints all arguments
  *
  * @argc: argument count
  * @argv: argument vector
@@ -13,12 +12,10 @@
 
 int main(int argc, char *argv[])
 {
-        int i;
+	int i;
 
-        for (i = 0; i < argc; i++)
-        {
-                printf("%s\n", argv[i]);
-        }
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 
-        exit(EXIT _SUCCESS);
+	return (0);
 }
