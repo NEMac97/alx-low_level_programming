@@ -7,6 +7,13 @@
 
 typedef struct dog dog_t;
 
+typedef struct dog_t
+{
+        char *name;
+        float age;
+        char *owner;
+};
+
 /**
  * struct dog - struct that stores some information of a dog
  *
@@ -16,6 +23,7 @@ typedef struct dog dog_t;
  *
  * Description: struct called "dog" that stores its name, its age
  * and the name of its owner.
+ *
  */
 
 struct dog
